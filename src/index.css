@@ -12,9 +12,10 @@
 }
 
 #rebel-alliance-ico {
-    font-size: 2em;
+    font-size: 3em;
     transition-duration: 800ms;
     color: #f0ece1;
+    margin-left: 0.5em;
 }
 
 #rebel-alliance-ico:hover {
