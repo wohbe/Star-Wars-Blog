@@ -1,0 +1,33 @@
+/** Cambios generales **/
+
+@font-face {
+    font-family: Aurebesh;
+    src: url(src/fonts/Aurebesh.otf);
+  }
+
+/** Respecto a la Navbar **/
+
+.navbar {
+    background-color: #080808;
+}
+
+#rebel-alliance-ico {
+    font-size: 2em;
+    transition-duration: 800ms;
+    color: #f0ece1;
+}
+
+#rebel-alliance-ico:hover {
+    color: #e5703d;
+}
+
+.nav-item {
+    font-size: 2em;
+    color: #f0ece1;
+    transition: text-shadow 0.3s ease;
+}
+
+.nav-item:hover {
+    font-family: Aurebesh;
+    text-shadow: 0 0 5px #2E67F8, 0 0 10px #2E67F8, 0 0 20px #2E67F8;
+}
