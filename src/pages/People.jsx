@@ -32,8 +32,15 @@ export const People = () => {
             <div className="card mb-3" style={{ maxWidth: "540px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="https://i.imgur.com/VvvujBL.png" className="img-fluid rounded-start" alt={person.name} />
-                </div>
+                 <div className="dropright">
+                  <img src="https://i.imgur.com/VvvujBL.png" className="img-fluid rounded-start" alt={person.name} role="button" data-bs-toggle="dropdown" aria-expanded="false" />
+                  <ul className="dropdown-menu">
+                        <h2>{person.name}</h2>
+                        <h4><strong>Detalles</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dui nisi, ornare quis sollicitudin a, malesuada in neque. Cras sed tincidunt mi. Vestibulum vitae tempor purus. Integer pulvinar nulla quis sem mattis pharetra. Etiam dapibus sodales velit, eu hendrerit justo consequat a. Phasellus feugiat magna in molestie vulputate. Proin pellentesque metus justo, in tempus eros iaculis quis. Sed dolor sem, dignissim at pulvinar sit amet, commodo quis ligula. Proin pharetra neque quis metus iaculis malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    </ul>
+                    </div>
+                  </div>
                 <div className="col-md-8">
                   <div className="card-body">
                     <h5 className="card-title">{person.name}</h5>

@@ -36,3 +36,11 @@
 a {
     text-decoration: none;
 }
+
+.img-fluid {
+    cursor: url("../cursor/click-here.ico"), default;
+}
+
+.img-fluid:hover {
+    cursor: url("../cursor/click-here.ico"), default;
+}
