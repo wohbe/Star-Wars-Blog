@@ -6,7 +6,8 @@ export const Home = () => {
 
 	return (
 		<div className="text-center m-auto">
-			<h1>Welcome to the Star Wars Universe</h1>
+			<h1>May the 4 be with you</h1>
+			<img src="https://atlas-content-cdn.pixelsquid.com/stock-images/death-star-do2Z7l0-600.jpg" alt="Star Wars" />
 		</div>
 	);
 }; 
