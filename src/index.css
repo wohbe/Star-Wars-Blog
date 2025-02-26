@@ -38,9 +38,5 @@ a {
 }
 
 .img-fluid {
-    cursor: url("../cursor/click-here.ico"), default;
-}
-
-.img-fluid:hover {
-    cursor: url("../cursor/click-here.ico"), default;
+    cursor: url(/src/cursor/clickhere.ico), auto;
 }
