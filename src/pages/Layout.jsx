@@ -8,8 +8,8 @@ import { FavoriteContextProvider } from "../hooks/FavoriteContext"
 export const Layout = () => {
     return (
         <ScrollToTop>
-            <Navbar />
                 <FavoriteContextProvider>
+                 <Navbar />
                     <Outlet />
                 </FavoriteContextProvider>
             {/* <Footer /> */}

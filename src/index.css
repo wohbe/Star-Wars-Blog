@@ -32,3 +32,7 @@
     font-family: Aurebesh;
     text-shadow: 0 0 5px #2E67F8, 0 0 10px #2E67F8, 0 0 20px #2E67F8;
 }
+
+a {
+    text-decoration: none;
+}
